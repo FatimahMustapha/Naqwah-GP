@@ -62,13 +62,18 @@ Manual inspection of coffee beans is time-consuming, subjective, and prone to in
 
 ### 🔹 Training & Validation Highlights
 
-| Metric              | Training Trend               | Validation Trend                |
-|---------------------|------------------------------|----------------------------------|
-| Box/Class/Object Loss | Consistent decrease         | Low & stable                     |
-| Precision           | High, increasing to ~1.0     | High (~0.9+)                     |
-| Recall              | Gradual increase             | Slightly lower than precision   |
-| mAP50               | —                            | **Above 0.9**                    |
-| mAP50-95            | —                            | **~0.7 – 0.8**                   |
+| **Phase**      | **Metric**              | **Observation**                                                               |
+|----------------|-------------------------|--------------------------------------------------------------------------------|
+| **Training**   | `train/box_loss`        | Consistent and steady decrease                                                |
+|                | `train/cls_loss`        | Decreasing with noticeable stability                                          |
+|                | `train/obj_loss`        | Clear downward trend, showing strong object detection                         |
+|                | `metrics/precision(B)`  | Gradual and steady increase, reaches high performance                         |
+|                | `metrics/recall(B)`     | Gradual improvement, slightly lower than precision                            |
+| **Validation** | `val/box_loss`          | Low and stable, no signs of overfitting                                       |
+|                | `val/cls_loss`          | Slight fluctuations, but generally stable                                     |
+|                | `val/obj_loss`          | Gradual decrease, indicating good generalization                              |
+|                | `metrics/mAP50`         | Very high performance, above **0.9**                                          |
+|                | `metrics/mAP50-95`      | Excellent given model complexity, around **0.7 – 0.8**                         |
 
 ### 🔹 Confusion Matrix Accuracy
 
