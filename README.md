@@ -1,12 +1,11 @@
 <p align="center">
   <img src="Logo (2).png" alt="Logo" width="250"/>
 </p>
- 
- 
-  Naqwah – AI-powered Coffee Bean Quality Assessment App ☕
+
+# Naqwah – AI-powered Coffee Bean Quality Assessment App ☕
 
 **Naqwah** is a mobile application that leverages **YOLOv8 object detection** to **automate the grading of coffee beans**.  
-This project was developed as my **graduation project** for the **Computer Science program at Imam Mohammad Ibn Saud Islamic University** .
+This project was developed as my **graduation project** for the **Computer Science program at Imam Mohammad Ibn Saud Islamic University**.
 
 ---
 
@@ -22,6 +21,17 @@ Manual inspection of coffee beans is time-consuming, subjective, and prone to in
 
 ---
 
+## 🛠 Tools Used
+
+- **Figma** (UI/UX Design)  
+- **Flutter** (Frontend)  
+- **YOLOv8** (AI Model)  
+- **FastAPI** (Backend)  
+- **MySQL** (Database)  
+- **Render & Railway** (Deployment)  
+
+---
+
 ## 🧾 Features
 
 - Upload image of coffee beans for real-time detection
@@ -31,6 +41,7 @@ Manual inspection of coffee beans is time-consuming, subjective, and prone to in
 - Fast, accurate, and consistent quality inspection
 
 ---
+
 ## 📱 App Screenshots
 
 <p align="center">
@@ -38,7 +49,6 @@ Manual inspection of coffee beans is time-consuming, subjective, and prone to in
 </p>
 
 ---
-
 
 ## 🧠 Model Overview
 
@@ -72,6 +82,7 @@ Manual inspection of coffee beans is time-consuming, subjective, and prone to in
 - Indicates optimal balance between precision and recall.
 
 ---
+
 ## 🏆 Achievements
 
 - 🥇 **1st Place Winner** at the **Computer Science Department Projects Exhibition**.
@@ -82,5 +93,3 @@ Manual inspection of coffee beans is time-consuming, subjective, and prone to in
 
 > This repository is intended for **demo and showcase purposes only**.  
 > **The source code is not publicly available.**
-
-
