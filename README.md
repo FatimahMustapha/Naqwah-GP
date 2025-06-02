@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="Logo.png" alt="Logo" width="650"/>
+</p>
+ 
+ 
  ☕ Naqwah – AI-powered Coffee Bean Quality Assessment App
 
 **Naqwah** is a mobile application that leverages **YOLOv8 object detection** to **automate the grading of coffee beans**.  
@@ -34,8 +39,7 @@ Manual inspection of coffee beans is time-consuming, subjective, and prone to in
 ## 📱 App Screenshots
 
 <p align="center">
-  <img src="Naqwah_pages.png" alt="Naqwah pages" width="250"/>
-
+  <img src="Naqwah_pages.png" alt="Naqwah pages" width="650"/>
 </p>
 
 ---
